@@ -1,0 +1,23 @@
+[global]
+developmentMode = false
+
+[server]
+address = "0.0.0.0"
+port = 8501
+headless = true
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#39B8A5"
+backgroundColor = "#101923"
+secondaryBackgroundColor = "#182532"
+textColor = "#E5EDF3"
+borderColor = "#2D3D4B"
+font = "sans-serif"
+baseRadius = "medium"
+showWidgetBorder = true
+chartCategoricalColors = ["#39B8A5", "#77A8EF", "#EAB66B", "#C397D5", "#E58483", "#9BB7C7"]

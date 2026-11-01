@@ -1,0 +1,12 @@
+{
+  "datasets": 72,
+  "seed_bytes": 1743304,
+  "excluded": [
+    "本地SQLite历史与错误日志",
+    "手工/CSV导入数据",
+    "凭据与个人路径",
+    "本地Python依赖"
+  ],
+  "entrypoint": "streamlit_app.py",
+  "python": "3.12"
+}

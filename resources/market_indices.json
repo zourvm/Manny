@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-30",
+  "note": "固定观察目录，非所有A股指数；日收盘价格指数，不含分红再投资。历史可能含发布前回溯值，不能视为当时可投资业绩。",
+  "indices": [
+    {"symbol":"sh000001","name":"上证指数","group":"宽基与板块"},
+    {"symbol":"sz399001","name":"深证成指","group":"宽基与板块"},
+    {"symbol":"sz399106","name":"深证综指","group":"宽基与板块"},
+    {"symbol":"sz399006","name":"创业板指","group":"宽基与板块"},
+    {"symbol":"sh000688","name":"科创50","group":"宽基与板块"},
+    {"symbol":"sh000680","name":"科创综指","group":"宽基与板块"},
+    {"symbol":"sh000300","name":"沪深300","group":"宽基与板块"},
+    {"symbol":"sh000016","name":"上证50","group":"宽基与板块"},
+    {"symbol":"sh000010","name":"上证180","group":"宽基与板块"},
+    {"symbol":"sh000905","name":"中证500","group":"宽基与板块"},
+    {"symbol":"sh000852","name":"中证1000","group":"宽基与板块"},
+    {"symbol":"csi932000","name":"中证2000","group":"宽基与板块"},
+    {"symbol":"sh000510","name":"中证A500","group":"宽基与板块"},
+    {"symbol":"sh000906","name":"中证800","group":"宽基与板块"},
+    {"symbol":"sh000985","name":"中证全指","group":"宽基与板块"},
+    {"symbol":"sh000986","name":"全指能源","group":"行业指数"},
+    {"symbol":"sh000987","name":"全指材料","group":"行业指数"},
+    {"symbol":"sh000988","name":"全指工业","group":"行业指数"},
+    {"symbol":"sh000989","name":"全指可选","group":"行业指数"},
+    {"symbol":"sh000990","name":"全指消费","group":"行业指数"},
+    {"symbol":"sh000991","name":"全指医药","group":"行业指数"},
+    {"symbol":"sh000992","name":"全指金融地产","group":"行业指数","aliases":["全指金融"]},
+    {"symbol":"sh000993","name":"全指信息","group":"行业指数"},
+    {"symbol":"sh000994","name":"全指通信","group":"行业指数"},
+    {"symbol":"sh000995","name":"全指公用","group":"行业指数"},
+    {"symbol":"csi932075","name":"全指金融","group":"行业指数"},
+    {"symbol":"csi932076","name":"全指地产","group":"行业指数"},
+    {"symbol":"sz399986","name":"中证银行","group":"行业指数"},
+    {"symbol":"sz399975","name":"证券公司","group":"行业指数","aliases":["中证全指证券公司"]}
+  ],
+  "sources": [
+    "https://www.sse.com.cn/market/sseindex/indexlist/index.shtml",
+    "https://www.cnindex.com.cn/zh_indices/sese/scale/index.html",
+    "https://www.csindex.com.cn/",
+    "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/zh_CN/000986factsheet.pdf",
+    "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/zh_CN/000992factsheet.pdf"
+  ]
+}
